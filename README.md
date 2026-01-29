@@ -17,11 +17,21 @@
 7. mdp/terminations_cfg.py：终止逻辑，包含时间步终止和任务失败与成功的终止。
 8. mdp/events_cfg.py：当mdp/terminations_cfg.py返回值为 True 时表示环境要重置，此时需要执行该文件中定义的逻辑进行环境重置。
 
+
 **奖励曲线：**
 
 <img width="1732" height="412" alt="image" src="https://github.com/user-attachments/assets/5a70486d-ce2f-4a75-aed9-876cc1429b59" />
 
 <img width="1739" height="457" alt="image" src="https://github.com/user-attachments/assets/95dba321-185c-486d-9a3f-8b532237e27f" />
 
-**训练过程展示：**
+**训练展示：**
 
+python scripts/rsl_rl/train.py --task FirstRL-v0 --num_envs 3000 --max_iterations 5000 --headless
+
+https://github.com/user-attachments/assets/44541b60-4a20-45e8-8dd7-a3102af9da5c
+
+**效果展示：**
+
+python scripts/rsl_rl/play.py --task FirstRL-v0 --num_envs 1
+
+https://github.com/user-attachments/assets/254551b2-1e3e-4481-b3e2-d8292123df03
