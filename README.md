@@ -19,3 +19,9 @@
 
 **奖励曲线：**
 
+<img width="1732" height="412" alt="image" src="https://github.com/user-attachments/assets/5a70486d-ce2f-4a75-aed9-876cc1429b59" />
+
+<img width="1739" height="457" alt="image" src="https://github.com/user-attachments/assets/95dba321-185c-486d-9a3f-8b532237e27f" />
+
+**训练过程展示：**
+
